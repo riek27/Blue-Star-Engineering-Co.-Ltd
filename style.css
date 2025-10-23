@@ -1240,3 +1240,53 @@ img[data-src] {
 img.loaded {
     opacity: 1;
 }
+/* === Service Inquiry Section === */
+.service-inquiry {
+    background: linear-gradient(rgba(20, 40, 160, 0.9), rgba(20, 40, 160, 0.9)), url('https://images.unsplash.com/photo-1581093458791-8a6a5d81b6c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.service-inquiry h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.service-inquiry p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+    color: white;
+}
+
+.inquiry-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.inquiry-feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(10px);
+}
+
+.inquiry-feature i {
+    font-size: 2.5rem;
+    color: var(--samsung-supernova);
+    margin-bottom: 1rem;
+}
+
+.inquiry-feature h4 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.inquiry-feature p {
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
