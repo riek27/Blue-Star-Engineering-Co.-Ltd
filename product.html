@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Blue Star Engineering Co. Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-star"></i>
+                Blue<span>Star</span>
+            </div>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Premium Samsung appliances for your home and business</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products-page">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="ac">Air Conditioners</button>
+                <button class="filter-btn" data-filter="heater">Water Heaters</button>
+                <button class="filter-btn" data-filter="generator">Generators</button>
+                <button class="filter-btn" data-filter="lighting">Lighting</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Air Conditioners -->
+                <div class="product-card" data-category="ac">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung DVM S2">
+                    <div class="product-info">
+                        <h3>Samsung DVM S2</h3>
+                        <p>Advanced multi-air conditioning system for large buildings and commercial spaces.</p>
+                        <ul class="product-features">
+                            <li>Energy Efficient</li>
+                            <li>Quiet Operation</li>
+                            <li>Smart Control</li>
+                            <li>Easy Installation</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ac">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08d45b3d0e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung WindFree">
+                    <div class="product-info">
+                        <h3>Samsung WindFree™ AC</h3>
+                        <p>Enjoy cool air without the direct wind chill for a more comfortable environment.</p>
+                        <ul class="product-features">
+                            <li>Gentle Cooling</li>
+                            <li>Digital Inverter</li>
+                            <li>Air Purification</li>
+                            <li>WiFi Connectivity</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Water Heaters -->
+                <div class="product-card" data-category="heater">
+                    <img src="https://images.unsplash.com/photo-1588343810166-9c47815d7e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Water Heater">
+                    <div class="product-info">
+                        <h3>Samsung Water Heater</h3>
+                        <p>Advanced water heating technology for your comfort and convenience.</p>
+                        <ul class="product-features">
+                            <li>Fast Heating</li>
+                            <li>Energy Saving</li>
+                            <li>Safety Features</li>
+                            <li>Durable Design</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Generators -->
+                <div class="product-card" data-category="generator">
+                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Generators">
+                    <div class="product-info">
+                        <h3>Samsung Power Generators</h3>
+                        <p>Reliable power solutions for homes and businesses with advanced safety features.</p>
+                        <ul class="product-features">
+                            <li>Automatic Voltage Regulation</li>
+                            <li>Low Noise Operation</li>
+                            <li>Fuel Efficient</li>
+                            <li>Extended Runtime</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Lighting -->
+                <div class="product-card" data-category="lighting">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Lighting">
+                    <div class="product-info">
+                        <h3>Samsung Smart Lighting</h3>
+                        <p>Intelligent lighting solutions for modern homes and offices.</p>
+                        <ul class="product-features">
+                            <li>Smart Control</li>
+                            <li>Energy Efficient</li>
+                            <li>Color Options</li>
+                            <li>Long Lifespan</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ac">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Bespoke AI">
+                    <div class="product-info">
+                        <h3>Samsung Bespoke AI</h3>
+                        <p>Intelligent appliances that learn your usage patterns for optimal performance.</p>
+                        <ul class="product-features">
+                            <li>AI Energy Mode</li>
+                            <li>SmartThings Integration</li>
+                            <li>Customizable Design</li>
+                            <li>Voice Control</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Help Choosing the Right Product?</h2>
+            <p>Our experts are ready to help you select the perfect Samsung appliance for your needs.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Our Experts</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Blue Star Engineering</h4>
+                    <p>Your trusted partner for Samsung appliances in South Sudan. Quality products and professional services since 2010.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Air Conditioners</a></li>
+                        <li><a href="products.html">Water Heaters</a></li>
+                        <li><a href="products.html">Generators</a></li>
+                        <li><a href="products.html">Thermostats</a></li>
+                        <li><a href="products.html">Lighting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📍 Juba, South Sudan</li>
+                        <li>📞 +211 927 490 141</li>
+                        <li>📞 0910 545 500</li>
+                        <li>✉️ info@bluestar-eng.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Blue Star Engineering Co. Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
