@@ -126,6 +126,30 @@
                         <a href="#generator-details" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
+                
+                <div class="featured-product">
+                    <div class="featured-badge">New Arrival</div>
+                    <img src="https://images.unsplash.com/photo-1588343810166-9c47815d7e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Samsung Water Heater">
+                    <div class="featured-info">
+                        <h3>Samsung Smart Water Heater</h3>
+                        <p class="featured-desc">Advanced water heating with smart temperature control and energy-saving features.</p>
+                        <div class="featured-specs">
+                            <div class="spec">
+                                <i class="fas fa-fire"></i>
+                                <span>Fast Heating</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-leaf"></i>
+                                <span>Energy Saving</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Smart Control</span>
+                            </div>
+                        </div>
+                        <a href="#heater-details" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -135,20 +159,6 @@
         <div class="container">
             <h2 class="section-title">Complete Product Range</h2>
             <p class="section-subtitle">Browse our full catalog of Samsung appliances</p>
-            
-            <div class="products-filter">
-                <div class="filter-options">
-                    <select id="sort-products" class="filter-select">
-                        <option value="featured">Sort by: Featured</option>
-                        <option value="name">Sort by: Name</option>
-                        <option value="popular">Sort by: Most Popular</option>
-                    </select>
-                    <div class="filter-view">
-                        <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
-                        <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
-                    </div>
-                </div>
-            </div>
 
             <div class="products-container grid-view">
                 <!-- Air Conditioners -->
@@ -274,7 +284,7 @@
                 </div>
 
                 <!-- Water Heaters -->
-                <div class="product-card" data-category="heater">
+                <div class="product-card" data-category="heater" id="heater-details">
                     <div class="product-badge">Efficient</div>
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1588343810166-9c47815d7e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Water Heater">
@@ -385,6 +395,87 @@
                             </div>
                             <div class="spec">
                                 <strong>Warranty:</strong> 2 Years
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                            <button class="btn-icon" title="Add to favorites">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Products for Better Layout -->
+                <div class="product-card" data-category="ac">
+                    <div class="product-badge">Premium</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung AR9500">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Air Conditioner</span>
+                        <h3 class="product-name">Samsung AR9500</h3>
+                        <p class="product-description">Premium air conditioner with advanced filtration and smart home integration.</p>
+                        <div class="product-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Air Purification</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Voice Control</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>WiFi Enabled</span>
+                            </div>
+                        </div>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <strong>Capacity:</strong> 1.5-3 HP
+                            </div>
+                            <div class="spec">
+                                <strong>Warranty:</strong> 5 Years
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn btn-primary">Inquire Now</a>
+                            <button class="btn-icon" title="Add to favorites">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="generator">
+                    <div class="product-badge">Heavy Duty</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samsung Industrial Generator">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Generator</span>
+                        <h3 class="product-name">Samsung Industrial Generator</h3>
+                        <p class="product-description">Heavy-duty power solution for industrial applications and large facilities.</p>
+                        <div class="product-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Industrial Grade</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Automatic Transfer</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>Remote Monitoring</span>
+                            </div>
+                        </div>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <strong>Power:</strong> 100-500 kVA
+                            </div>
+                            <div class="spec">
+                                <strong>Warranty:</strong> 3 Years
                             </div>
                         </div>
                         <div class="product-actions">
